@@ -18,5 +18,7 @@ s1=student(name="Bran",score=50)
 s2=student(name="Gessy",score=60)
     #use methods
 s1.display()
-print(f"passed status: {s1.check_pass}")
-print(f"passed status: {s2.check_pass}")
+s2.display()
+print(f"passed status: {s1.check_pass()}")
+print(f"passed status: {s2.check_pass()}")
+
